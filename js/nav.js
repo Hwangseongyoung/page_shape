@@ -48,3 +48,23 @@ document.querySelector('.main-menu5').addEventListener('mouseleave', function (e
     e.preventDefault();
     document.querySelector('.sub-menu5').style.visibility = 'hidden';
 })
+
+/* scroll event */
+
+let nav = document.querySelector("header");
+        
+    document.addEventListener('wheel', function(e) {
+        if(e.deltaY > 0 && scrollY > 500){
+            nav.classList.add("nav-hide");
+        }else {
+            nav.classList.remove("nav-hide");
+        }
+    });
+
+    document.addEventListener('scroll', function(e) {
+        if(scrollY > 500) {
+            nav.style.backgroundColor = "rgba(225, 232, 234, 1)";
+        }else {
+            nav.style.backgroundColor = "rgba(225, 232, 234, 0.82)";
+        }
+    });
