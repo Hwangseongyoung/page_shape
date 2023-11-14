@@ -132,12 +132,16 @@ nav {
 
 .sub-title {
     font-size: 30px;
+    letter-spacing: 2px;
     color: #fff;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 .sub-title-txt {
-    font-size: 18px;
+    font-size: 14px;
+    letter-spacing: 1.5px;
     color: #fff;
+    font-family: 'Gothic A1', sans-serif;
 }
 
 .line {
