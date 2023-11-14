@@ -111,6 +111,42 @@ nav {
 }
 
 
+/* main 시작 */
+.sub-title-wrap {
+    width: 100%;
+    height: 300px;
+    background-image: linear-gradient(rgba(84, 84, 84, 0.5), rgba(84, 84, 84, 0.5)), url('../images/recom-sub-intro.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.sub-title-bg {
+    max-width: 1200px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.sub-title {
+    font-size: 30px;
+    color: #fff;
+}
+
+.sub-title-txt {
+    font-size: 18px;
+    color: #fff;
+}
+
+.line {
+    margin: 5px 0 12px 0;
+    width: 100px;
+    height: 2px;
+    background-color: #fff;
+}
+
 
 /* footer 시작 */
 
