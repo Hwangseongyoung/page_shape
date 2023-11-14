@@ -2,17 +2,10 @@
     width: 100%;
 }
 
-.nav-hide {
-    transform: translateY(-100px);
-}
-
 header {
-    position: fixed;
-    top: 0;
     background-color: rgba(225, 232, 234, 0.82);
     width: 100%;
     height: 100px;
-    z-index: 9999;
     transition: 0.2s;
 }
 

@@ -10,4 +10,4 @@ document.addEventListener('scroll', () => {
         document.querySelector('.anchor').style.opacity = '1';
         document.querySelector('.anchor').style.visibility = "visible";
     }
-})
+});
